@@ -8,7 +8,7 @@ using WPF.Common.Interfaces;
 
 namespace WPF.Common.Impl
 {
-	class FileDialogService:IFileDialogService
+	public class FileDialogService:IFileDialogService
 	{
 		public string OpenFile(string filter = null) {
 			var ofd = new OpenFileDialog() {

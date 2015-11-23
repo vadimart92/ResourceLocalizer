@@ -181,6 +181,12 @@
     <Content Include="Modules\ResourceEditor.pdb" />
     <Content Include="Modules\System.Windows.Interactivity.dll" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ResourceEditor\ResourceEditor.csproj">
+      <Project>{c031722d-055d-49e3-9dd2-e459cfb84357}</Project>
+      <Name>ResourceEditor</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
